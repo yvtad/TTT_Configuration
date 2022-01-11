@@ -12,7 +12,7 @@
     <skeletonDir>JCLSkeletons</skeletonDir>
     <datasethlq />
     <jclproperties>
-      <property key="lpar_tttrunner_lib" value="SYS2.CW.CXR17B.SLCXLOAD" />
+      <property key="lpar_tttrunner_lib" value="SYS2.CW.CXR17A.SLCXLOAD" />
     </jclproperties>
   </Connection>
   <Connection>
@@ -23,28 +23,28 @@
     <databaseUri>jdbc:db2://192.168.96.130:&lt;port&gt;/${database}</databaseUri>
     <databaseDriver>com.ibm.db2.jcc.DB2Driver</databaseDriver>
     <databaseName>&lt;database&gt;</databaseName>
-    <description>CWCC</description>
-    <label>CWCC</label>
+    <description>CWCC - Demo System</description>
+    <label>CWCC - Demo System</label>
     <skeletonDir>JCLSkeletons</skeletonDir>
     <datasethlq />
     <jclproperties>
-      <property key="lpar_tttrunner_lib" value="SYS2.CW.CXR17B.SLCXLOAD" />
+      <property key="lpar_tttrunner_lib" value="SYS2.CW.CXR17A.SLCXLOAD" />
     </jclproperties>
   </Connection>
   <Connection>
-    <id>79161366-7654-4b4d-853a-2505a8273d94</id>
-    <ipaddress>10.10.0.200</ipaddress>
-    <port>16196</port>
+    <id>aa7c97de-cbb0-4d10-8423-b9e3a35fb52b</id>
+    <ipaddress>192.168.96.130</ipaddress>
+    <port>16198</port>
     <socketType>HCI</socketType>
-    <databaseUri>jdbc:db2://10.10.0.200:&lt;port&gt;/${database}</databaseUri>
+    <databaseUri>jdbc:db2://192.168.96.130:&lt;port&gt;/${database}</databaseUri>
     <databaseDriver>com.ibm.db2.jcc.DB2Driver</databaseDriver>
     <databaseName>&lt;database&gt;</databaseName>
-    <description>CW01</description>
-    <label>CW01</label>
+    <description>CWCC - Test Drive Port</description>
+    <label>CWCC - Test Drive Port</label>
     <skeletonDir>JCLSkeletons</skeletonDir>
     <datasethlq />
     <jclproperties>
-      <property key="lpar_tttrunner_lib" value="SYS2.CW.CXR17B.SLCXLOAD" />
+      <property key="lpar_tttrunner_lib" value="&lt;VALUE&gt;" />
     </jclproperties>
   </Connection>
 </Connections>
