@@ -44,7 +44,23 @@
     <skeletonDir>JCLSkeletons</skeletonDir>
     <datasethlq />
     <jclproperties>
-      <property key="lpar_tttrunner_lib" value="&lt;VALUE&gt;" />
+      <property key="lpar_tttrunner_lib" value="SYS2.CW.CXR17A.SLCXLOAD" />
+    </jclproperties>
+  </Connection>
+  <Connection>
+    <id>79161366-7654-4b4d-853a-2505a8273d94</id>
+    <ipaddress>10.10.0.200</ipaddress>
+    <port>16196</port>
+    <socketType>HCI</socketType>
+    <databaseUri>jdbc:db2://10.10.0.200:&lt;port&gt;/${database}</databaseUri>
+    <databaseDriver>com.ibm.db2.jcc.DB2Driver</databaseDriver>
+    <databaseName>&lt;database&gt;</databaseName>
+    <description>CW01</description>
+    <label>CW01</label>
+    <skeletonDir>JCLSkeletons</skeletonDir>
+    <datasethlq />
+    <jclproperties>
+      <property key="lpar_tttrunner_lib" value="SYS2.CW.CXR17A.SLCXLOAD" />
     </jclproperties>
   </Connection>
 </Connections>
